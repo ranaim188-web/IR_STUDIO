@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place Order | IR Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">IR Studio</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+
+<main>
+
+  <section class="order-section">
+
+    <div class="order-box">
+
+      <h1>Place Your Order</h1>
+
+      <p class="order-subtitle">
+        Enter your details below to place your order.
+      </p>
+
+
+      <form>
+
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your full name"
+          required
+        >
+
+
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Enter your phone number"
+          required
+        >
+
+
+        <label for="address">Full Address</label>
+        <textarea
+          id="address"
+          rows="4"
+          placeholder="House number, street, village/city, state"
+          required
+        ></textarea>
+
+
+        <label for="pincode">PIN Code</label>
+        <input
+          type="text"
+          id="pincode"
+          placeholder="Enter PIN code"
+          required
+        >
+
+
+        <label for="payment">Payment Method</label>
+
+        <select id="payment">
+          <option>Cash on Delivery</option>
+          <option>Online Payment</option>
+        </select>
+
+
+        <button type="submit" class="btn order-btn">
+          Place Order
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+  <p>© 2026 IR Studio. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
